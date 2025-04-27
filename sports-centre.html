@@ -2,71 +2,83 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Legend Pustika Bhandar</title>
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
+      background-color: #f2f7f8;
     }
-
-    /* Back to House button */
-    .back-button {
-      display: inline-block;
-      margin: 20px;
-      padding: 8px 16px;
-      background-color: #ffffff;
-      color: #000000;
-      border: 2px solid #000000;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-
-    /* Header Section */
     .header {
-      background-color: #0b1c2c;
+      background-color: #0D2239;
       color: white;
-      padding: 60px 20px 20px; /* top padding bigger to make space for button */
       text-align: center;
+      padding: 40px 20px 20px 20px;
+      position: relative;
     }
-
-    /* Mission Section */
+    .header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    .header p {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+    .back-button {
+      text-align: left;
+      margin: 20px 20px 0 20px;
+    }
+    .back-button button {
+      background-color: white;
+      color: #0D2239;
+      font-weight: bold;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    }
     .mission {
-      padding: 20px;
-      background-color: #f0f4f5;
+      padding: 40px 20px;
+      background-color: #e6f0f3;
     }
-
-    /* Footer Section */
+    .mission h2 {
+      font-size: 24px;
+      color: #0D2239;
+    }
+    .mission p {
+      font-size: 16px;
+      color: #333;
+      margin-top: 10px;
+    }
     .footer {
-      text-align: center;
-      padding: 10px;
-      background-color: #0b1c2c;
+      background-color: #0D2239;
       color: white;
+      text-align: center;
+      padding: 15px;
       font-size: 14px;
     }
   </style>
 </head>
 <body>
 
-<!-- Back Button at the top -->
-<a href="home.html" class="back-button">← Back to House</a>
+  <div class="header">
+    <h1>THE LEGEND PUSTIKA BHANDAR</h1>
+    <p>Empowering Education for Future Generations</p>
+    <div class="back-button">
+      <button onclick="location.href='your-homepage-link.html'">&larr; Back to House</button>
+    </div>
+  </div>
 
-<!-- Main Header -->
-<div class="header">
-  <h1>THE LEGEND PUSTIKA BHANDAR</h1>
-  <p>Empowering Education for Future Generations</p>
-</div>
+  <div class="mission">
+    <h2>Our Mission</h2>
+    <p>The Educational Cell of Dardasha Group Pvt Ltd focuses on establishing innovative schools that nurture critical thinking, creativity, and community values.</p>
+  </div>
 
-<!-- Mission Section -->
-<div class="mission">
-  <h2>Our Mission</h2>
-  <p>The Educational Cell of Dardasha Group Pvt Ltd focuses on establishing innovative schools that nurture critical thinking, creativity, and community values.</p>
-</div>
-
-<!-- Footer -->
-<div class="footer">
-  © 2025 Aldardasha House - All rights reserved.
-</div>
+  <div class="footer">
+    &copy; 2025 Aldardasha House - All rights reserved.
+  </div>
 
 </body>
 </html>
