@@ -13,21 +13,13 @@
     .header {
       background-color: #0D2239;
       color: white;
-      text-align: center;
-      padding: 40px 20px 20px 20px;
+      padding: 20px 20px 30px 20px;
       position: relative;
     }
-    .header h1 {
-      margin: 0;
-      font-size: 32px;
-    }
-    .header p {
-      margin: 10px 0;
-      font-size: 18px;
-    }
     .back-button {
-      text-align: left;
-      margin: 20px 20px 0 20px;
+      position: absolute;
+      top: 20px;
+      left: 20px;
     }
     .back-button button {
       background-color: white;
@@ -38,6 +30,18 @@
       border-radius: 8px;
       cursor: pointer;
       box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    .header-content {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .header-content h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    .header-content p {
+      margin: 10px 0 0 0;
+      font-size: 18px;
     }
     .mission {
       padding: 40px 20px;
@@ -64,10 +68,12 @@
 <body>
 
   <div class="header">
-    <h1>THE LEGEND PUSTIKA BHANDAR</h1>
-    <p>Empowering Education for Future Generations</p>
     <div class="back-button">
       <button onclick="location.href='your-homepage-link.html'">&larr; Back to House</button>
+    </div>
+    <div class="header-content">
+      <h1>THE LEGEND PUSTIKA BHANDAR</h1>
+      <p>Empowering Education for Future Generations</p>
     </div>
   </div>
 
